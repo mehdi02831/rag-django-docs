@@ -1,0 +1,3 @@
+.venv
+data/django
+__pycache__

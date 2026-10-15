@@ -1,0 +1,27 @@
+### Health
+GET http://127.0.0.1:8000/health
+
+### Answerable question
+POST http://127.0.0.1:8000/ask
+Content-Type: application/json
+
+{"question": "How do I write a custom middleware class?"}
+
+### Unanswerable question (should refuse)
+POST http://127.0.0.1:8000/ask
+Content-Type: application/json
+
+{"question": "How do I integrate Stripe payments in Django?"}
+
+### Search only
+GET http://127.0.0.1:8000/search?q=file uploads&k=5
+
+
+### n8n test
+POST http://localhost:5678/webhook-test/ask
+Content-Type: application/json
+
+{"question": "How do I integrate Stripe payments in Django?"}
+
+###
+GET http://127.0.0.1:8000/health

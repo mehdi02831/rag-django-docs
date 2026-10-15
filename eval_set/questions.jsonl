@@ -1,0 +1,23 @@
+{"q": "How do I run several database operations so they all succeed or all roll back?", "sources": ["topics/db/transactions.txt"]}
+{"q": "How do I write a custom middleware class?", "sources": ["topics/http/middleware.txt"]}
+{"q": "What is the difference between select_related and prefetch_related?", "sources": ["ref/models/querysets.txt", "topics/db/optimization.txt"]}
+{"q": "How do I protect my forms against cross-site request forgery?", "sources": ["ref/csrf.txt"]}
+{"q": "How do I cache the output of a single view?", "sources": ["topics/cache.txt"]}
+{"q": "How do I create and apply a database migration?", "sources": ["topics/migrations.txt"]}
+{"q": "How do I compute the average of a field across all rows?", "sources": ["topics/db/aggregation.txt"]}
+{"q": "How do I run code automatically after a model instance is saved?", "sources": ["topics/signals.txt"]}
+{"q": "How do I store session data in the database or cache?", "sources": ["topics/http/sessions.txt"]}
+{"q": "How do I send an email from Django?", "sources": ["topics/email.txt"]}
+{"q": "How do I make text in my templates translatable?", "sources": ["topics/i18n/translation.txt"]}
+{"q": "How do I check my project is safe to deploy to production?", "sources": ["howto/deployment/checklist.txt"]}
+{"q": "How do I require login for a view?", "sources": ["topics/auth/default.txt"]}
+{"q": "How do I add a database index on a model field?", "sources": ["ref/models/indexes.txt", "ref/models/options.txt"]}
+{"q": "How do I use F expressions to update a field based on its current value?", "sources": ["ref/models/expressions.txt"]}
+{"q": "How do I handle file uploads?", "sources": ["topics/http/file-uploads.txt"]}
+{"q": "How do I write tests that use a test client to make requests?", "sources": ["topics/testing/tools.txt"]}
+{"q": "How do I customize the Django admin list display?", "sources": ["ref/contrib/admin/index.txt"]}
+{"q": "How do I map a URL pattern to a view?", "sources": ["topics/http/urls.txt"]}
+{"q": "How do I create a custom management command?", "sources": ["howto/custom-management-commands.txt"]}
+{"q": "How do I deploy Django on Kubernetes with Helm charts?", "sources": []}
+{"q": "How do I integrate Stripe payments in Django?", "sources": []}
+{"q": "What is the best Python web framework for machine learning?", "sources": []}
