@@ -2,8 +2,16 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from generate import answer
 from search import hybrid_search
+from pathlib import Path
+from fastapi.responses import FileResponse
+
+STATIC = Path(__file__).parent / "static"
 
 app = FastAPI(title="Django Docs RAG")
+@app.get("/", include_in_schema=False)
+
+def home():
+    return FileResponse(STATIC / "index.html")
 
 class Ask(BaseModel):
     question: str
